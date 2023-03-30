@@ -57,6 +57,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .menu-link:hover {
   color: #404bbf;
@@ -148,7 +150,6 @@ h1 {
 
 /* ---------------section 3--------------- */
 .section-three {
-  padding-top: 120px;
   padding-bottom: 120px;
 }
 .name-section {
@@ -168,6 +169,11 @@ h1 {
 .back-photo {
   background-color: #ffffff;
 }
+.cont-worker-information {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
 /* ---------------footer--------------- */
 .main-footer {
   background-color: #2e2f42;
@@ -185,6 +191,29 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+.studio-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  text-decoration: none;
 }
 
 /*    PAAAAAAAAAAAAAAAGE TWO */
@@ -227,7 +256,8 @@ h1 {
   letter-spacing: 0.02em;
   color: #434455;
   margin-top: 8px;
-  margin-bottom: 32px;
+  /* padding-bottom: 32px;
+  padding-left: 16px; */
 }
 .flex-img {
   display: block;
@@ -239,11 +269,14 @@ h1 {
   border-left: #e7e9fc solid 1px;
   border-right: #e7e9fc solid 1px;
   padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 .container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
 }
 .conteiner-flex {
   display: flex;
@@ -280,7 +313,6 @@ h1 {
 }
 .two-section-text {
   width: 264px;
-  height: 72px;
 }
 .name-section {
   margin: 0 auto 72px;
@@ -296,6 +328,11 @@ h1 {
   gap: 24px;
   margin: 0 auto;
 }
+.photo-first-page {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /* потребує доопрацювання */
 /* Флекси 2 сторінка */
 
@@ -303,8 +340,7 @@ h1 {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .button-second-page {
   box-sizing: content-box;
